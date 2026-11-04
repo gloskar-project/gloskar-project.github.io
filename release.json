@@ -1,14 +1,14 @@
 {
   "name": "Gloskar",
   "version": "0.9.3",
-  "publication": "not-published",
+  "publication": "public-links-verified",
   "artifacts": {
     "android": {
       "file": "Gloskar-0.9.3-Android-direct.apk",
       "sha256": "df32ef1c445211dd8492a6d2db6f63889854768fa536b43472f8017db296498a",
       "bytes": 3037382,
       "signature": "production",
-      "url": null,
+      "url": "https://github.com/gloskar-project/gloskar-project.github.io/releases/download/v0.9.3/Gloskar-0.9.3-Android-direct.apk",
       "certificateSha256": "347cb855880c3c39727c43651e91cf2051669c67ccc10e813ec537cfa60be393"
     },
     "windows": {
@@ -16,7 +16,7 @@
       "sha256": "ab9beaf9b18ad65c45ee608a0db1220568a5620219cf314c0b926c8e4b7230f5",
       "bytes": 112626887,
       "signature": "unsigned",
-      "url": null,
+      "url": "https://github.com/gloskar-project/gloskar-project.github.io/releases/download/v0.9.3/Gloskar-0.9.3-Windows-x64-Setup.exe",
       "certificateSha256": null
     }
   },

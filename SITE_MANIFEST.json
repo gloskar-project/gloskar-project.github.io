@@ -1,6 +1,6 @@
 {
   "version": "0.9.3",
-  "publication": "not-published",
+  "publication": "public-links-verified",
   "files": [
     {
       "file": ".nojekyll",
@@ -39,28 +39,28 @@
     },
     {
       "file": "index.html",
-      "bytes": 11907,
-      "sha256": "cdf391dae8197496f83d8bc6cbc6b7e24f506847145d20cd01a9de01f0a24b99"
+      "bytes": 11828,
+      "sha256": "024065cd22e2a3d1d0b5065083288ffbcb0426ba54f522e7fa05b1a7114a3a99"
     },
     {
       "file": "install.html",
-      "bytes": 8653,
-      "sha256": "3429d1187e82d3a1612c6831942e3f118dd9245f3ee78827f626be7fc8b5794d"
+      "bytes": 8415,
+      "sha256": "e7a0665bdfa23fe24b77bc658d056343252628b6c82ace0a18b905556afdc3d0"
     },
     {
       "file": "licenses.html",
-      "bytes": 6592,
-      "sha256": "619e92f69c08b02290bb35f9b9ec4ec776970c61724fa1bd269a8afac40a25ed"
+      "bytes": 6354,
+      "sha256": "44d18e84941b9106e7539c26c3660d51f186c096733a1cb9a90e2af22cc24bae"
     },
     {
       "file": "privacy.html",
-      "bytes": 7201,
-      "sha256": "349ad70335515271738b04a56a96a5b716d2690af7c742aded00523ca2ca5d6a"
+      "bytes": 6784,
+      "sha256": "40d63863cd8656364fbcfa2e9e2077e50bdc462eb9cbd0795c2a12b6bd710bc1"
     },
     {
       "file": "release.json",
-      "bytes": 714,
-      "sha256": "97e73822fdda448760710111d082d11554ca6a81d4cf432407a26c1617d273cc"
+      "bytes": 957,
+      "sha256": "aca97dc83b66a2a74421e05fd7d83243231e83683fde03d92c9cd92967213f97"
     },
     {
       "file": "SHA256SUMS.txt",
