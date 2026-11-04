@@ -1,0 +1,81 @@
+{
+  "version": "0.9.3",
+  "publication": "not-published",
+  "files": [
+    {
+      "file": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "assets/android-learning.png",
+      "bytes": 111129,
+      "sha256": "84d1883ac396010e2f0c9ad8614339a7369198c0c4f59e2c917c32c0091fbca6"
+    },
+    {
+      "file": "assets/icon.svg",
+      "bytes": 255,
+      "sha256": "a3c7fadd9bed1e7d2dfadb4fd7ec8d4fd6ccd582dfb94263fe6049c317392a9e"
+    },
+    {
+      "file": "assets/licenses/runtime-notices.zip",
+      "bytes": 2673219,
+      "sha256": "53d3442bfba45d8dc2cbb1a003f5914247e7927f4107d9207942a895ace517d5"
+    },
+    {
+      "file": "assets/windows-complete.png",
+      "bytes": 43495,
+      "sha256": "1c56597c6717754520a2cfd18b8bddc1def231a3dde990ee429a78230885b6f4"
+    },
+    {
+      "file": "assets/windows-editor.png",
+      "bytes": 106030,
+      "sha256": "8256d7cc42150fadbbf51963b09f28eea9e1ef9c02737dea00632278284d1f8a"
+    },
+    {
+      "file": "assets/windows-library.png",
+      "bytes": 42771,
+      "sha256": "d570e0c0456c64d8428e8fbbf6db3efa88c70394f6e814ea8496c401c91dafbf"
+    },
+    {
+      "file": "index.html",
+      "bytes": 11907,
+      "sha256": "cdf391dae8197496f83d8bc6cbc6b7e24f506847145d20cd01a9de01f0a24b99"
+    },
+    {
+      "file": "install.html",
+      "bytes": 8653,
+      "sha256": "3429d1187e82d3a1612c6831942e3f118dd9245f3ee78827f626be7fc8b5794d"
+    },
+    {
+      "file": "licenses.html",
+      "bytes": 6592,
+      "sha256": "619e92f69c08b02290bb35f9b9ec4ec776970c61724fa1bd269a8afac40a25ed"
+    },
+    {
+      "file": "privacy.html",
+      "bytes": 7201,
+      "sha256": "349ad70335515271738b04a56a96a5b716d2690af7c742aded00523ca2ca5d6a"
+    },
+    {
+      "file": "release.json",
+      "bytes": 714,
+      "sha256": "97e73822fdda448760710111d082d11554ca6a81d4cf432407a26c1617d273cc"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "bytes": 201,
+      "sha256": "f8ccddb1a70ef8c5642a6584668e57a63ca6533e5dbfe92e34ef820d739dce21"
+    },
+    {
+      "file": "site.js",
+      "bytes": 751,
+      "sha256": "0a46bac18da66f3d025e09742e62c515a993f67e30e0c34bbd404c6c87e39070"
+    },
+    {
+      "file": "style.css",
+      "bytes": 11763,
+      "sha256": "918465f3edd0d5e0082b2a3d2eed5385a3a21e7cca04c900fdb409ad60b534f4"
+    }
+  ]
+}

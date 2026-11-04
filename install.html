@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Свои наборы слов, обучение и повторение офлайн. Бесплатное приложение для Android и Windows без регистрации и подписок.">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+<meta name="robots" content="noindex,nofollow">
+<title>Установка и резервные копии · Gloskar</title>
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./style.css">
+<script src="./site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">К содержанию</a>
+<header class="header"><div class="container header-inner">
+<a class="brand" href="./index.html" aria-label="Gloskar — главная"><img src="./assets/icon.svg" width="34" height="34" alt=""><span>Gloskar</span></a>
+<nav aria-label="Основная навигация"><a href="./index.html#screens">Возможности</a><a href="./install.html">Установка</a><a class="nav-download" href="./index.html#downloads">Скачать</a></nav>
+</div></header>
+<div class="draft">Предварительный просмотр. Публичный релиз готовится; ссылки загрузки ещё не опубликованы.</div>
+<main id="main"><article class="container document"><p class="eyebrow">УСТАНОВКА И ДАННЫЕ</p><h1>Начните с установки</h1><p class="lead">Скачайте установщик нужной платформы, проверьте источник и сохраните резервную копию, если уже пользуетесь приложением.</p>
+<h2>Windows</h2><ol><li>Скачайте EXE со <a href="./index.html#downloads">страницы загрузки</a> и сравните SHA-256.</li><li>Закройте работающий Gloskar и запустите установщик. Установка выполняется для текущего пользователя.</li><li>Открывайте приложение через созданный ярлык. Браузер и сервер для занятий не нужны.</li></ol><div class="callout"><strong>О подписи Windows</strong><p>Текущий прямой установщик пока без доверенной подписи издателя. Windows может показать «Неизвестный издатель» или SmartScreen. Не отключайте защиту ради установки; при блокировке остановитесь и перепроверьте источник и контрольную сумму.</p></div><p>Основная проверенная среда — Windows 11 x64. Возможность установки не означает проверку всех версий Windows и всех устройств.</p>
+<h2>Android</h2><p>Нужны Android 10 или новее и установленный Android System WebView 133+. Само приложение работает без интернета сразу после установки на совместимое устройство.</p><ol><li>Сохраните внешний JSON-backup, если приложение уже установлено.</li><li>Скачайте подписанный APK со страницы загрузки или по одобренной ссылке магазина.</li><li>Откройте APK через системный установщик. Разрешение на установку из выбранного источника меняйте только осознанно; не отключайте системную проверку приложений.</li></ol>
+<h2 id="backup">Обновление и резервная копия</h2><p>Обычное обновление с тем же сертификатом Android сохраняет данные. Не удаляйте приложение и не очищайте его данные для обновления.</p><ol><li>Сохраните правки редактора в набор: несохранённый черновик не входит в JSON-backup.</li><li>Откройте «Настройки → Сохранить копию» и сохраните полный JSON вне каталога приложения.</li><li>Сделайте вторую копию файла. Убедитесь, что сохранены наборы, прогресс и активное занятие.</li><li>Для переноса откройте «Восстановить» на другом устройстве. Восстановление заменяет текущую библиотеку — сначала сохраните и её, если в ней уже есть данные.</li></ol>
+<h3>Переход с LexiLearn на Gloskar</h3><p>У Gloskar новый Android-идентификатор <code>com.gloskar.app</code>. Он устанавливается рядом с LexiLearn, даже если сертификат прежний. В LexiLearn сохраните правки редактора, затем выберите «Настройки → Сохранить копию». В Gloskar выберите «Восстановить» и откройте этот JSON. Проверьте наборы, статистику и продолжение занятия. Старый LexiLearn и внешнюю копию сохраняйте до завершения проверки; автоматического удаления нет. Это относится и к старым Debug APK.</p><p>Windows использует прежнюю библиотеку LexiLearn. Закройте обе версии перед обновлением; не очищайте профиль <code>%APPDATA%\LexiLearn</code>. Новое название папки профиля не требуется.</p>
+<h2 id="offline">Проверка без интернета</h2><p>После установки включите авиарежим и отключите Wi-Fi, полностью закройте приложение и запустите его снова. Создайте или откройте набор, пройдите часть занятия и перезапустите приложение. Прогресс должен сохраниться. Для сайта загрузки, магазинов, обновления WebView и добровольной поддержки интернет нужен отдельно.</p>
+<h2>Проверка SHA-256</h2><p>В Windows PowerShell можно проверить скачанный файл командой:</p><pre><code>Get-FileHash -Algorithm SHA256 -LiteralPath .\ИМЯ_СКАЧАННОГО_ФАЙЛА</code></pre><p>Сравните все 64 символа с суммой на странице загрузки. SHA-256 помогает проверить целостность файла и не заменяет проверку источника или сертификата.</p><p><a class="text-link" href="./index.html#downloads">Вернуться к загрузкам →</a></p></article>
+</main>
+<footer class="footer"><div class="container footer-top"><a class="brand" href="./index.html">Gloskar</a><span>Версия 0.9.3 · Бесплатно</span></div>
+<div class="container footer-links"><a href="./privacy.html">Конфиденциальность</a><a href="./licenses.html">Лицензии</a><a href="./install.html#backup">Резервные копии</a><a href="mailto:gloskar@yandex.ru">Связаться</a><a href="https://yoomoney.ru/fundraise/1L9EQAC5DIO.261101" target="_blank" rel="noopener noreferrer">Поддержать проект</a></div>
+<div class="container footer-note">Наборы и прогресс хранятся на вашем устройстве. Сохраните внешнюю JSON-копию перед переустановкой.</div></footer>
+<p class="sr-only" id="copy-status" role="status" aria-live="polite"></p>
+</body></html>
